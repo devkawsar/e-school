@@ -10,19 +10,14 @@
     height: 400px;
   }
   .row img{
-    max-width: 100%;
+    max-width: justify;
     height: 100px;
   }
   .small{
     max-width: 100%;
     height: 5px;
   }
-  .cat1, .cat2, .cat3, .cat4{
-    border: none;
-    border-radius: 10px;
-    padding: 10px;
-    
-  }
+  
   .calender, .people{
    max-width: 20px;
    height: 20px;
@@ -44,15 +39,24 @@
     margin-top: 100px;
   }
   .bottom{
-    background-color: black;
+    background-color: rgb(56, 50, 50);
     color: white;
     margin-top: 100px;
+    padding: 50px;
   }
-  .container .categories :hover{
-    background-color: none;
+  
+  .col-md-3:hover{
+    transform: scale(1.3);
     border: none;
-    box-shadow: 5px 10px 18px #888888;
     border-radius: 10px;
-    padding: 10px;
+    box-shadow: 2px 5px 10px #888888;
   }
+  .testimonial p{
+    padding: 30px;
+  }
+ .col-md-3{
+   max-width: 1500px;
+   height: 200px;
+  padding: 20px 20px;
+ }
  
